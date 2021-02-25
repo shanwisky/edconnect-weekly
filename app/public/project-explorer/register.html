@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+            <a href="#" class="navbar-brand" >Project Explorer </a>
+        <div class="collapse navbar-collapse">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search Projects" aria-label="Search">
+                <button class="btn btn-primary btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item"><a href="#" class="nav-link" >Submit</a></li>
+                </ul>
+        </div>
+            </form>
+        <ul class="nav navbar-nav mx-0 my-lg-0">
+                <li class="nav-item"><a href="login.html" class="nav-link" >Login</a></li>
+                <li class="nav-item"><a href="register.html" class="nav-link">Signup</a></li>  
+        </ul>
+        
+            </nav>
+           <div class="mx-auto text-left mt-5 mr-md-3 w-75 p-3">
+            <h1>Signup</h1>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+               <label for="Name">First Name</label>
+                   <input type="text" name="firstName" class="form-control" placeholder="First name"/> 
+                </div>  
+                <div class="form-group col-md-6"> 
+               <label for="lastName">Last Name</label>
+               <input type="text" name="lastName" class="form-control" placeholder="Last name" />
+               </div>
+               <div class="form-group col-md-6"> 
+               <label for="inputEmail">Email Address</label>
+               <input type="email" name="email" class="form-control" placeholder="Your Email address" /> 
+               </div>
+               <div class="form-group col-md-6">
+               <label for="password">Password:</label>
+               <input type="password" name="password" class="form-control" placeholder="Your Password"/>
+               </div>
+               <div class="form-group col-md-6">
+               <label for="program">Program</label>
+               <select name="program" class="form-control">
+                   <option selected>Choose...</option>
+                   <option value="computer_science">Computer Science</option>
+                   <option value="computer_information_systems">Computer Information Systems</option>
+                   <option value="computer_technology">Computer Technology</option>
+               </select>
+               </div>
+               <div class="form-group col-md-3">
+                <label for="matricNumber">Matric Number</label>
+              <input type="text" name="matricNumber" class="form-control" placeholder="e.g. 22/2020"/>
+              </div>
+               <div class="form-group col-md-3">
+               <label for="graduationYear">Graduation Year</label>
+               <select name="graduationYear" class="form-control">
+                <option selected>Choose...</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+               </select>
+               </div>
+               <button class="btn btn-primary" type="submit">Sign Up</button>
+            </div>
+            </form>
+        </div>
+        <div class="container text-right bg-light py-3 mx-auto mb-5">
+            <footer>
+                <span><strong><small class="text-muted">Project Explorer &copy; 2020 &sdot; </small>Edconnect</strong></span>
+              </footer>
+        </div> 
+    
+    </body>
+
+
+
+
+</html>
